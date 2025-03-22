@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tech Stack
+
+- **Material UI** — For building React components with a modern design.
+- **Leaflet** — For interactive maps and geospatial data visualization.
+
 ## Available Scripts
 
 In the project directory, you can run:
