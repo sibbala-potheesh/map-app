@@ -20,7 +20,7 @@ const Login = ({ onLogin }) => {
 
   const handleLogin = async () => {
     try {
-      const { data } = await api.post("/login", { username, password });
+      const { data } = await api.post("api/login", { username, password });
       localStorage.setItem("token", data.token);
       onLogin();
       navigate("/dashboard");

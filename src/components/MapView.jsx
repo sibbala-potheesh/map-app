@@ -32,7 +32,7 @@ const MapView = () => {
   useEffect(() => {
     const fetchMapData = async () => {
       try {
-        const response = await api.get("/map", {
+        const response = await api.get("api/map", {
           headers: {
             Authorization: "Bearer your-secret-token", // Replace with actual token
           },

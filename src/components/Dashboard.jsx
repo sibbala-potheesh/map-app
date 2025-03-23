@@ -35,7 +35,7 @@ const Dashboard = ({ setIsAuthenticated }) => {
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
-        const response = await api.get("/dashboard");
+        const response = await api.get("api/dashboard");
         setCards(response.data.cards);
       } catch (err) {
         setError("Failed to load dashboard data");
