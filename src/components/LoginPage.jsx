@@ -15,8 +15,8 @@ import api from "../api";
 
 const Login = ({ onLogin }) => {
   const navigate = useNavigate();
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("admin@test.com");
+  const [password, setPassword] = useState("Admin@123");
 
   const handleLogin = async () => {
     try {
